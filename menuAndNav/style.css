@@ -1,0 +1,222 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: #238caf;
+}
+nav{
+    width: 85%;
+    top: 0;
+    padding: 10px;
+    margin: 0 0 0 184px;
+    display: flex;
+    background-color: black;
+    text-aling: center;
+    align-items: center;
+    justify-content: center;
+}
+.navMenu{
+    width: 100%;
+    display: flex;
+    text-aling: center;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 0 0 20px;
+}
+.navMenubar{
+}
+.navMenubar img{
+    width: 50px;
+    height: 20px;
+}
+.navtitle{
+    margin: 0 0 0 20px;
+    color: white;
+}
+.navbarRightMenu{
+    display:flex;
+/*     margin-left: 600px; */
+}
+.navbarRightMenuSearchBar{
+    justify-content: flex-start;
+    right: 0;
+}
+.Leftmenu{
+    width: 150px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 20px;
+    position: fixed;
+    background-color: #f5f4f4;
+}
+.leftmenuItemswallet{
+    height: 70px;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+}
+.leftmenuItemsImg{
+    
+}
+.leftmenuItemsImg img{
+    width: 20px;
+    height: 20px;
+}
+.leftmenuItems{
+
+}
+.leftmenuAdimn{
+    text-aling: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 50px 0;
+}
+.leftmenuAdimnImg{
+    filter: drop-shadow(0.35rem 1.35rem 0.8rem rgba(0, 0, 0, 0.5));
+}
+.leftmenuAdimnImg img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 100%;
+}
+.leftMenuTitle{
+    height: 30px;
+}
+.leftmenuItemsTitle{
+    font-size: 20px;
+    margin: 0 0 0 20px;
+}
+.leftmenuItemsDiv{
+    display: flex;
+    flex-direction: column;
+}
+.leftmenuItemsDashbord{
+    height: 50px;
+    display: flex;
+}
+
+.leftmenuItemsTransaction{
+    height: 50px;
+    display: flex;
+}
+.leftmenuItemsWallet{
+    height: 50px;
+    display: flex;
+}
+.leftmenuItemsCards{
+    height: 50px;
+    display: flex;
+}
+
+
+.leftmenuItemsSetting{
+    height: 50px;
+    display: flex;
+}
+
+.titleElement{
+    width: 100%;
+    height: auto;
+    text-aling: center;
+    display: flex;
+    text-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.h1div h1{
+    width: 80%;
+    height: auto;
+    text-aling: center;
+    display: flex;
+    text-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* <!--     Social Media Pages       --> */
+
+.indexSocialMedia{
+    width: 70%;
+    height: auto;
+    margin-left: 280px;
+    background-color: #f3f3f3;
+}
+.indexSocialMediaItems{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.indexSocialMediaDiv{
+    width: 38%;
+    display: flex;
+    justify-content: center;
+}
+.indexSocialMediaImg{
+
+}
+.indexSocialMediaImg img{
+    width: 100px;
+    height: auto;
+    margin-top: -30px;
+    margin-left: 20px;
+    border: 4px solid #ff8315;
+    border-radius: 25px;
+
+}
+.indexSocialMediaImgDetails{
+    display: flex;
+    align-items: start; 
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+.indexSocialMediaImgTitle{
+    font-size: 20px;
+    font-weight: 500;
+    height: 30px;
+}
+.indexSocialMediaImgText{
+    font-size: 12px;
+    opacity: 0.5;
+}
+.indexSocialMediaIcon{
+
+}
+.indexSocialMediaIcon a{
+    text-decoration: none;
+    padding: 5px;
+    
+}
+.indexVerticalDivider{  
+    border-left: 1px solid #c7c6c6;
+    height: 80px;
+    margin: 20px 25px 0 65px;
+}
+
+.indexSocialMediaContactDetails{
+    width: 30%;
+    margin-left: 50px;
+    display: flex;
+    text-align: start;
+    align-items: start; 
+    justify-content: center;
+    flex-direction: column;
+}
+.indexSocialMediaEmailTitle{
+    font-size: 12px;
+    opacity: 0.5;
+}
+.indexSocialMediaEmailText{
+    font-size: 16px;
+    height: 30px;
+}
+.indexSocialMediaPhoneText{
+    font-size: 12px;
+    opacity: 0.5;
+}
+.indexSocialMediaPhoneNo{
+    font-size: 16px;
+    height: 30px;
+}
